@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./pages/Main";
 
 function App() {
@@ -8,7 +8,9 @@ function App() {
     // <BrowserRouter>
     //   <div className="App">
     <Routes>
-      <Route path="/" element={<Main />}></Route>
+      <Route path="/" element={<Main />}>
+        <Route />
+      </Route>
     </Routes>
     //   </div>
     // </BrowserRouter>
