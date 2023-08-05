@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Header.css";
 
 const Header = () => {
-  //   const Hover = [{ name: "a" }, { name: "b" }, { name: "c" }];
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="container">

@@ -8,6 +8,7 @@ const Main = () => {
       <Header />
       <div className="box">
         <span>안녕하세요</span>
+        <input type="text" className="inputName" />
       </div>
     </div>
   );

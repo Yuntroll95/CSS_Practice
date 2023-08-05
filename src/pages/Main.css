@@ -6,4 +6,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0px 10px;
+}
+
+.inputName {
+  margin-top: 30px;
+  border-width: 0 0 1px;
+  width: 100px;
+  background-color: beige;
+}
+
+.inputName:focus {
+  outline: none;
 }
