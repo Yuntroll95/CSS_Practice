@@ -1,0 +1,14 @@
+.container {
+  width: 100vw;
+  height: 30px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 30px;
+}
+.name {
+  font-size: 20px;
+  cursor: pointer;
+}
